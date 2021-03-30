@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("../fonts/PT_Sans/PTSans-Regular.ttf"); 
+   
+  }
+  header{
+    width: 90%;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);   
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    margin: 0 5%;
+   }
+   nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    font-family: "PTSans";
+    padding-top: 150px;
+    width: 90%;
+    margin: 0 auto;
+}    
+.cta{
+
+    font-family: "PTSans";
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #0066EE;
+    color: white;
+    padding: 0 44px;
+    width: fit-content; 
+    text-decoration: none;
+    margin-right: 14px;
+}
+.navigation-menu {
+    display: flex;
+    width: 389px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: "PTSans";
+    }
+    
+.menu-links{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+.menu-links-projects{
+    color: #000000;
+    text-decoration: none;
+}
+.container-projects h1{
+    font-size: 40px;
+    font-family: "PTSans";
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+.image-2{
+    width: 542px;
+    height: 368px;
+    background-color:none;
+    background-size: cover;
+    background-image: url("../images/asset-v1_IRONHACK+UXFT+202002_BCN_UXUI5BETA2+type@asset+block@wellness.png");
+}
+.container-article h2 {
+    font-size: 30px;
+    font-family: "PTSans";
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 44px;
+}
+.container-article-1 h2 {
+    font-size: 30px;
+    font-family: "PTSans";
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 44px;
+}
+
+.container-description{
+    font-size: 20px;
+    font-family: "PTSans";
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.article-button-1{
+    font-family: "PTSans";
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.container-project{
+    display: flex;
+    justify-content: space-between;
+}
+.container-project-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.container-article{
+    width: calc(50% - 20px);
+}
+.container-article-1{
+    width: calc(50% - 20px);
+    margin-top: 55px;
+    
+}
+.image-2{
+    width: 542px;
+    height: 368px;
+    background-color:none;
+    background-image: url("../images/upload_cdec93e3dce29806c9036da26f362bf8.png");
+    background-size: cover;
+}
+.image-3{
+    width: 542px;
+    height: 368px;
+    background-color:none;
+    background-image: url("../images/asset-v1_IRONHACK+UXFT+202002_BCN_UXUI5BETA2+type@asset+block@wellness.png");
+    background-size: cover;
+}
+.section-footer{
+    display: flex-end;
+    margin: 0 5%;
+    background-color:#D5F3FE
+  }
+  
+  .footer-title {
+    font-family: "PTSans";
+    font-size: 30px;
+    line-height: 42px;
+  }
+  
+  .article-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+  
+  .footer-description {
+    font-family: "PTSans";
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .article-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .div-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+  .medium {
+    margin-right: 34px;
+  }
+
+  .hello {
+    font-family: "PTSans";
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
+  footer{
+      margin-top: 100px;
+  }

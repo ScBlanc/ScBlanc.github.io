@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("../fonts/PT_Sans/PTSans-Regular.ttf"); 
+   
+  }
+
+header{
+    width: 90%;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);   
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    margin: 0 5%;
+   }
+body{
+    font-family: "PTSans";
+   
+}
+
+main{
+    width: 90%;
+   margin: 0 auto;
+   padding-top: 150px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-about{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-article{
+    display: flex;
+    justify-content: space-between;
+}
+.article-div-container{
+    width: 60%;
+}
+.article-title-h1{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 84px;
+
+}
+.article-description{
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+.navigation-menu {
+    display: flex;
+    width: 389px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: "PTSans";
+    }
+    
+.menu-links{
+        color: #C4C4C4;
+        text-decoration: none;
+    }
+.menu-links-about{
+        color: #000000;
+        text-decoration: none;
+    }
+    
+.cta{
+    
+    font-family: "PTSans";
+    display: flex;
+    font-size: 20px;
+     align-items: center;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #0066EE;
+    color: white;
+    padding: 0 44px;
+    width: fit-content; 
+    text-decoration: none;
+    margin-right: 14px;
+           
+    }
+
+.image{
+    width: 460px;
+    height: 736px;
+    background-color:none;
+    background-image: url("../images/foto-sergio-aboutme.svg");
+    background-size: cover;
+}
+
+.container-about-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 94px;
+    margin-top: 80px;
+    
+}
+
+.cuerpo-tarjeta{
+    width: 220px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+   justify-content: center;
+   background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+
+}
+.description-software p{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.description-software-better p{
+    width: 145px;
+    height: 64px;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container-items{
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+.container-items-1{
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+  
+}
+
+.cuerpo-tarjeta-marvel{
+    width: 225px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+   justify-content: center;
+   background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.section-footer{
+    display: flex-end;
+    margin: 0 5%;
+    background-color:#D5F3FE
+  }
+  
+  .footer-title {
+    font-family: "PTSans";
+    font-size: 30px;
+    line-height: 42px;
+  }
+  
+  .article-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+  
+  .footer-description {
+    font-family: "PTSans";
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .article-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .div-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+  .medium {
+    margin-right: 34px;
+  }
+
+  .hello {
+    font-family: "PTSans";
+    font-size: 24px;
+    margin-bottom: 14px;
+  }

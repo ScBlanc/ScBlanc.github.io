@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("../fonts/PT_Sans/PTSans-Regular.ttf"); 
+   
+  }
+
+header{
+    width: 90%;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);   
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    margin: 0 5%;
+   }
+main{
+    font-family: "PTSans";
+    padding-top: 150px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta{
+
+    font-family: "PTSans";
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    height: 56px;
+    border-radius: 4px;
+    background-color: #0066EE;
+    color: white;
+    padding: 0 44px;
+    width: fit-content; 
+    text-decoration: none;
+    margin-right: 14px;
+}
+.navigation-menu {
+    display: flex;
+    width: 389px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: "PTSans";
+    }
+    
+.menu-links{
+    color: #C4C4C4;
+    text-decoration: none;
+}
+.menu-links-projects{
+    color: #000000;
+    text-decoration: none;
+}
+.container-project-wellness h1{
+    font-size: 30px;
+    width: 100%;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 4px;
+}
+.container-project-wellness h3{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 40px;
+}
+.image{
+    width: 542px;
+    height: 315.32px;
+    margin-left: 25%;
+   background-image:url("../images/Group\ 5188-min.jpg");
+}
+.container-project-wellness p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.section-footer{
+    display: flex-end;
+    margin: 0 5%;
+    background-color:#D5F3FE
+  }
+  
+  .footer-title {
+    font-family: "PTSans";
+    font-size: 30px;
+    line-height: 42px;
+  }
+  
+  .article-about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 32px;
+  }
+  
+  .footer-description {
+    font-family: "PTSans";
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .article-icons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .div-icons {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    margin-bottom: 16px;
+  }
+  .medium {
+    margin-right: 34px;
+  }
+
+  .hello {
+    font-family: "PTSans";
+    font-size: 24px;
+    margin-bottom: 14px;
+  }
+
