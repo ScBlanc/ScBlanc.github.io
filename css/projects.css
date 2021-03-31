@@ -38,6 +38,21 @@ main{
     width: fit-content; 
     text-decoration: none;
     margin-right: 14px;
+    cursor: pointer;
+       
+}
+
+.cta:hover{
+    background-color: #045bcd;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);   
+    
+}
+.cta:active{
+    background-color: #045bcd9a;
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); 
+    transform: translate(2px); 
 }
 .navigation-menu {
     display: flex;

@@ -181,7 +181,20 @@ footer {
     margin-left: 152px;
     margin-bottom: 14px;
     text-decoration: none;
+    cursor: pointer;
 
+}   
+.article-button:hover{
+  background-color: #045bcd;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);   
+  
+}
+.article-button:active{
+  background-color: #045bcd9a;
+  color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); 
+  transform: translate(2px); 
 }
 .image-2{
     width: 542px;

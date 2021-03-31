@@ -75,20 +75,34 @@ nav{
     }
     
 .cta{
-    
-    font-family: "PTSans";
-    display: flex;
-    font-size: 20px;
-     align-items: center;
-    height: 56px;
-    border-radius: 4px;
-    background-color: #0066EE;
-    color: white;
-    padding: 0 44px;
-    width: fit-content; 
-    text-decoration: none;
-    margin-right: 14px;
+
+        font-family: "PTSans";
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        height: 56px;
+        border-radius: 4px;
+        background-color: #0066EE;
+        color: white;
+        padding: 0 44px;
+        width: fit-content; 
+        text-decoration: none;
+        margin-right: 14px;
+        cursor: pointer;
            
+    }
+    
+    .cta:hover{
+        background-color: #045bcd;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);   
+        
+    }
+    .cta:active{
+        background-color: #045bcd9a;
+        color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); 
+        transform: translate(2px); 
     }
 
 .image{
@@ -143,7 +157,7 @@ nav{
 .container-items-1{
     display: flex;
     justify-content: space-between;
-    width: 580px;
+    width: 45%;
   
 }
 
