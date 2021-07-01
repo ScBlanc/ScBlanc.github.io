@@ -1,428 +1,436 @@
-@font-face {
-    font-family: "PTSans";
-    src: url("../fonts/PT_Sans/PTSans-Regular.ttf");  /* Os dejo esta parte para recordaros como importar un font-family 😊*/
-  }
-  header{
-    width: 100%;
-    background: #FFFEFE;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);   
-    border-radius: 4px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    position: fixed;
-  
-   }
-
-main{
-    width: 100%;
-   margin: 0 auto;
-   padding-top: 120px;
- 
-}
-
-nav{
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-footer {
-    width: 0%;
-    height: 400px;
-    background-color:#D5F3FE;
-   
-}
-.navigation-menu {
-    display: flex;
-    width: 389px;
-    justify-content: space-between;
-    font-size: 20px;
-    font-family: "PTSans";
-}
-
-.menu-links{
-    color: #C4C4C4;
-    text-decoration: none;
-}
-.menu-links-home{
-    color: #000000;
-    text-decoration: none;
-}
-
-
-.cta{
-
-    font-family: "PTSans";
-    display: flex;
-    font-size: 20px;
-    align-items: center;
-    height: 56px;
-    border-radius: 4px;
-    background-color: #0066EE;
-    color: white;
-    padding: 0 44px;
-    width: fit-content; 
-    text-decoration: none;
-    margin-right: 14px;
-    cursor: pointer;
-       
-}
-
-.cta:hover{
-    background-color: #045bcd;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);   
-    
-}
-.cta:active{
-    background-color: #045bcd9a;
-    color: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); 
-    transform: translate(2px); 
-}
-
-.container-introduction{
-    margin-top: 0px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #D5F3FE;
-    margin-left: 5%;
-    margin-right: 5%;
-    
-}
-
-.container-projects{
-    margin-top: 60px;
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-.container-article{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-}  
-.container-article-1{
-    display: flex;
-  justify-content: space-between;
-  
-
-}  
-.container-article-2{
-    display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-}   
-
-.article-div-container {
-    width: 60%;
-    margin-top: 104px;
- 
-    
-  }
-
-.article-div-container-1 {
-    width: calc(50% - 20px);
-    margin-top: 40px;
-    
-    
-}
-.article-div-container-2 {
-    width: calc(50% - 20px);
-   
-}
-
-.image{
-    width: 338px;
-    height: 338px;
-    background-color:none;
-    background-image: url("../images/image\ \(12\).png");
-    background-size: cover;
-    
-
-}
-
-.article-title-h1{
-    font-family: "PTSans";
-    font-weight: 700;
-  font-size: 64px;
-  line-height: 83px;
-  margin-bottom: 16px;
-}
-.article-description{
-    font-family: "PTSans";
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 130%;
-    text-align: left;
-    margin-bottom: 40px;
-   
-}
-.article-description-1 {
-    font-family: "PTSans";
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: left;
-    margin-bottom: 40px;
-  
-   
-}
-.article-button{
-    font-family: "PTSans";
-    display: flex;
-    font-size: 20px;
-    align-items: center;
-    height: 56px;
-    border-radius: 4px;
-    background-color: #0066EE;
-    color: white;
-    padding: 0 44px;
-    width: fit-content; 
-    margin-left: 152px;
-    margin-bottom: 14px;
-    text-decoration: none;
-    cursor: pointer;
-
-}   
-.article-button:hover{
-  background-color: #045bcd;
-  color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);   
-  
-}
-.article-button:active{
-  background-color: #045bcd9a;
-  color: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3); 
-  transform: translate(2px); 
-}
-.image-2{
-    width: 542px;
-    height: 368px;
-    background-color:none;
-    background-image: url("../images/asset-v1_IRONHACK+UXFT+202002_BCN_UXUI5BETA2+type@asset+block@wellness.png");
-    background-size: cover;
-    margin-top: 40px;
-
-}
-.container-project-title{
-    font-family: "PTSans";
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 53px;
-    margin-bottom: 40px
-}
-.article-title-h2{
-    font-family: "PTSans";
-    font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 24px
-}
-.article-button-1{
-    font-family: "PTSans";
-    font-weight: 400;
-    font-size: 20px;
-    color: #000000;
-}
-.image-3{
-    width: 542px;
-    height: 368px;
-    background-color:none;
-    background-image: url("../images/upload_cdec93e3dce29806c9036da26f362bf8.png");
-    background-size: cover;
-  
-}
-
-
-.section-footer{
-    display: flex-end;
-    
-  }
-  
-  .footer-title {
-    font-family: "PTSans";
-    font-size: 30px;
-    line-height: 42px;
-  }
-  
-  .article-about {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-bottom: 32px;
-  }
-  
-  .footer-description {
-    font-family: "PTSans";
-    font-size: 20px;
-    line-height: 28px;
-    text-decoration: none;
-    color: #000000;
-  }
-  
-  .article-icons {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .div-icons {
-    display: flex;
-    justify-content: flex-end;
-    width: 300px;
-    margin-bottom: 16px;
-  }
-  .medium {
-    margin-right: 34px;
-  }
-
-  .hello {
-    font-family: "PTSans";
-    font-size: 24px;
-    margin-bottom: 14px;
-  }
-  .mobile-content{
-      display: none;
-      flex-direction: column;
-  }
-  .mobile-content p{
-    margin-bottom: 46px;
-    font-size: 18px;
-    font-family: "PTSans";
-  }
-
-  @media only screen and (max-width: 414px){
-    .desktop-content {
-      display: none;
-    }
-  
-    .mobile-content {
-      display: flex;
-      height: 100vh;
-      align-items: center;
-      justify-content: center;
-      background-color: aliceblue;
-    }
-    h1 {
-      font-size: 20px;
-      line-height: 28px;
-      width: 344px;
-    }
-  
-    header{
-      padding: 40px 16px 0 16px;
-      margin-bottom: 95px;
-    }
-  
-    .menu {
-      padding: 0 16px;
-    }
-  
-    .container-section {
-      padding: 0 8px 0 8px;
-    }
-  
-    .image {
-      width: 100%;
-    }
-  
-    .article-div-container {
-      width: 100%;
-    }
-  
-    .container-article {
-      flex-wrap: wrap;
-    }
-  
-    .section-footer {
-      width: 100%;
-    }
-  
-    footer {
-      padding: 0 16px 82px 16px;
-      flex-wrap: wrap;
-    }
-  
-    .article-icons {
-      justify-content: flex-start;
-    }
-  
-    .article-about {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    nav img {
-      width: 130px;
-      height: 32px;
-    }
-  
-    .contact-link {
-      display: none;
-    }
-    
-  }
-  
-  @media only screen and (min-width: 415px) and (max-width: 768px){
-    h1 {
-      font-size: 20px;
-      line-height: 28px;
-      width: 344px;
-    }
-  
-    header{
-      padding: 40px 16px 0 16px;
-      margin-bottom: 95px;
-    }
-  
-    .menu {
-      padding: 0 16px;
-    }
-  
-    .container-section {
-      padding: 0 8px 0 8px;
-    }
-  
-    .image {
-      width: 100%;
-    }
-  
-    .article-div-container {
-      width: 100%;
-    }
-  
-    .container-article {
-      flex-wrap: wrap;
-    }
-  
-    .section-footer {
-      width: 100%;
-    }
-  
-    footer {
-      padding: 0 16px 82px 16px;
-      flex-wrap: wrap;
-    }
-  
-    .article-icons {
-      justify-content: flex-start;
-    }
-  
-    .article-about {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    nav img {
-      width: 130px;
-      height: 32px;
-    }
-  
-    .contact-link {
-      display: none;
-    }
-
-  }
+                                                                @font-face {
+                                                                font-family: "raleway-regular";
+                                                                src: url("../fonts/Raleway/static/Raleway-Regular.ttf");
+                                                                /* Os dejo esta parte para recordaros como importar un font-family 😊*/
+                                                            }
+                                                            
+                                                            @font-face {
+                                                                font-family: "raleway-medium";
+                                                                src: url("../fonts/Raleway/static/Raleway-Medium.ttf");
+                                                                /* Os dejo esta parte para recordaros como importar un font-family 😊*/
+                                                            }
+                                                            
+                                                            @font-face {
+                                                                font-family: "raleway-semi-bold";
+                                                                src: url("../fonts/Raleway/static/Raleway-SemiBold.ttf");
+                                                                /* Os dejo esta parte para recordaros como importar un font-family 😊*/
+                                                            }
+                                                            
+                                                            @font-face {
+                                                                font-family: "raleway-bold";
+                                                                src: url("../fonts/Raleway/static/Raleway-Bold.ttf");
+                                                                /* Os dejo esta parte para recordaros como importar un font-family 😊*/
+                                                            }
+                                                            
+                                                            header {
+                                                                width: 100%;
+                                                                height: 44px;
+                                                                background: #FFFEFE;
+                                                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+                                                                padding-top: 15px;
+                                                                padding-bottom: 25px;
+                                                                position: fixed;
+                                                            }
+                                                            
+                                                            main {
+                                                                width: 100%;
+                                                                margin: 0 auto;
+                                                                padding-top: 100px;
+                                                            }
+                                                            
+                                                            nav {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                align-items: center;
+                                                            }
+                                                            
+                                                            footer {
+                                                                width: 0%;
+                                                                height: 400px;
+                                                                background-color: #D5F3FE;
+                                                            }
+                                                            
+                                                            .navigation-menu {
+                                                                display: flex;
+                                                                width: 389px;
+                                                                justify-content: space-between;
+                                                                font-size: 18px;
+                                                            }
+                                                            
+                                                            .menu-links {
+                                                                color: #4B4D61;
+                                                                text-decoration: none;
+                                                                font-family: "raleway-regular";
+                                                            }
+                                                            
+                                                            .menu-links-home {
+                                                                color: #000000;
+                                                                font-style: normal;
+                                                                text-decoration: none;
+                                                                font-family: "raleway-bold";
+                                                            }
+                                                            
+                                                            .cta {
+                                                                font-family: "raleway-semi-bold";
+                                                                display: flex;
+                                                                font-size: 18px;
+                                                                align-items: center;
+                                                                height: 56px;
+                                                                border-radius: 8px;
+                                                                background-color: #792EC0;
+                                                                color: white;
+                                                                padding: 0 44px;
+                                                                width: fit-content;
+                                                                text-decoration: none;
+                                                                margin-right: 14px;
+                                                                cursor: pointer;
+                                                            }
+                                                            
+                                                            .cta:hover {
+                                                                background-color: #A393F5;
+                                                                color: white;
+                                                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+                                                            }
+                                                            
+                                                            .cta:active {
+                                                                background-color: #A393F5;
+                                                                color: white;
+                                                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+                                                                transform: translate(2px);
+                                                            }
+                                                            
+                                                            .container-introduction {
+                                                                margin-top: 0px;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                margin-left: 10%;
+                                                                margin-right: 10%;
+                                                            }
+                                                            
+                                                            .container-projects {
+                                                                margin-top: 110px;
+                                                                margin-left: 10%;
+                                                                margin-right: 10%;
+                                                            }
+                                                            
+                                                            .container-article {
+                                                                width: 100%;
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                align-items: center;
+                                                            }
+                                                            
+                                                            .container-article-1 {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                margin-top: 80px;
+                                                            }
+                                                            
+                                                            .container-article-2 {
+                                                                display: flex;
+                                                                justify-content: space-between;
+                                                                margin-top: 100px;
+                                                            }
+                                                            
+                                                            .article-div-container {
+                                                                width: 60%;
+                                                                margin-top: 104px;
+                                                            }
+                                                            
+                                                            .article-div-container-1 {
+                                                                width: calc(50% - 0px);
+                                                            }
+                                                            
+                                                            .article-div-container-2 {
+                                                                width: calc(50% - 20px);
+                                                            }
+                                                            
+                                                            .image {
+                                                                width: 440px;
+                                                                height: 550px;
+                                                                background-color: none;
+                                                                background-image: url("../images/sergio-design-thiking.png");
+                                                                background-size: cover;
+                                                            }
+                                                            
+                                                            .gifmesa {
+                                                                width: 436px;
+                                                                height: 300px;
+                                                            }
+                                                            
+                                                            .article-title-h1 {
+                                                                font-family: "raleway-bold";
+                                                                
+                                                                font-size: 48px;
+                                                            
+                                                                margin-bottom: 12px;
+                                                            }
+                                                            
+                                                            .article-description {
+                                                                width: 90%;
+                                                                font-family: "raleway-regular";
+                                                    
+                                                                font-size: 24px;
+                                                                line-height: 30px;
+                                                                text-align: left;
+                                                                margin-bottom: 60px;
+                                                            }
+                                                            
+                                                            .article-description-1 {
+                                                                font-family: "raleway-regular";
+                                                                
+                                                                font-size: 20px;
+                                                                line-height: 38px;
+                                                                text-align: left;
+                                                                margin-bottom: 50px;
+                                                            }
+                                                            
+                                                            .article-button {
+                                                                font-family: "raleway-semi-bold";
+                                                                display: flex;
+                                                                font-size: 18px;
+                                                                align-items: center;
+                                                                height: 56px;
+                                                                border-radius: 4px;
+                                                                background-color: #792EC0;
+                                                                color: white;
+                                                                padding: 0 44px;
+                                                                width: fit-content;
+                                                               
+                                                                text-decoration: none;
+                                                                cursor: pointer;
+                                                            }
+                                                            
+                                                            .article-button:hover {
+                                                                background-color: #045bcd;
+                                                                color: white;
+                                                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+                                                            }
+                                                            
+                                                            .article-button:active {
+                                                                background-color: #045bcd9a;
+                                                                color: white;
+                                                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+                                                                transform: translate(2px);
+                                                            }
+                                                            
+                                                            .image-2 {
+                                                                width: 542px;
+                                                                height: 368px;
+                                                                background-color: none;
+                                                                background-image: url("../images/asset-v1_IRONHACK+UXFT+202002_BCN_UXUI5BETA2+type@asset+block@wellness.png");
+                                                                background-size: cover;
+                                                                margin-top: 40px;
+                                                            }
+                                                            
+                                                            .container-project-title {
+                                                                font-family: "raleway-bold";
+                                                          
+                                                                font-size: 38px;
+                                                                line-height: 53px;
+                                                                margin-bottom: 40px;
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            .article-title-h2 {
+                                                                font-family: "raleway-bold";
+                                                                font-weight: 700;
+                                                                font-size: 24px;
+                                                                line-height: 32px;
+                                                                margin-bottom: 16px;
+                                                            }
+                                                            
+                                                            .article-button-1 {
+                                                                font-family: "raleway-semi-bold";
+                                                                
+                                                                font-size: 20px;
+                                                                color: #792EC0;
+                                                            }
+                                                            
+                                                            .image-3 {
+                                                                width: 642px;
+                                                                height: 468px;
+                                                                background-color: none;
+                                                                background-image: url("../images/upload_cdec93e3dce29806c9036da26f362bf8.png");
+                                                                background-size: cover;
+                                                            }
+                                                            
+                                                            .section-footer {
+                                                                display: flex-end;
+                                                            }
+                                                            
+                                                            .footer-title {
+                                                                font-family: "PTSans";
+                                                                font-size: 30px;
+                                                                line-height: 42px;
+                                                            }
+                                                            
+                                                            .article-about {
+                                                                display: flex;
+                                                                flex-direction: column;
+                                                                align-items: flex-end;
+                                                                margin-bottom: 32px;
+                                                            }
+                                                            
+                                                            .footer-description {
+                                                                font-family: "raleway-regular";
+                                                                font-size: 20px;
+                                                                line-height: 28px;
+                                                                text-decoration: none;
+                                                                color: #000000;
+                                                            }
+                                                            
+                                                            #scroll-img-container {
+                                                                justify-content: center;
+                                                                display: flex;
+                                                                text-align: center;
+                                                            }
+                                                            
+                                                            #scroll-img {
+                                                                width: 40px;
+                                                                margin-top: 18px;
+                                                            }
+                                                            
+                                                            .scroll {
+                                                                font-family: "raleway-regular";
+                                                                font-size: 18px;
+                                                                margin-top: 8px;
+                                                            }
+                                                            
+                                                            .article-icons {
+                                                                display: flex;
+                                                                justify-content: flex-end;
+                                                            }
+                                                            
+                                                            .div-icons {
+                                                                display: flex;
+                                                                justify-content: flex-end;
+                                                                width: 300px;
+                                                                margin-bottom: 16px;
+                                                            }
+                                                            
+                                                            .medium {
+                                                                margin-right: 34px;
+                                                            }
+                                                            
+                                                            .hello {
+                                                                font-family: "raleway-regular";
+                                                                font-size: 20px;
+                                                                font-weight: 400;
+                                                                margin-bottom: 10px;
+                                                            }
+                                                            
+                                                            .mobile-content {
+                                                                display: none;
+                                                                flex-direction: column;
+                                                            }
+                                                            
+                                                            .mobile-content p {
+                                                                margin-bottom: 46px;
+                                                                font-size: 18px;
+                                                                font-family: "PTSans";
+                                                            }
+                                                            
+                                                            @media only screen and (max-width: 414px) {
+                                                                .desktop-content {
+                                                                    display: none;
+                                                                }
+                                                                .mobile-content {
+                                                                    display: flex;
+                                                                    height: 100vh;
+                                                                    align-items: center;
+                                                                    justify-content: center;
+                                                                    background-color: aliceblue;
+                                                                }
+                                                                h1 {
+                                                                    font-size: 20px;
+                                                                    line-height: 28px;
+                                                                    width: 344px;
+                                                                }
+                                                                header {
+                                                                    padding: 40px 16px 0 16px;
+                                                                    margin-bottom: 95px;
+                                                                }
+                                                                .menu {
+                                                                    padding: 0 16px;
+                                                                }
+                                                                .container-section {
+                                                                    padding: 0 8px 0 8px;
+                                                                }
+                                                                .image {
+                                                                    width: 100%;
+                                                                }
+                                                                .article-div-container {
+                                                                    width: 100%;
+                                                                }
+                                                                .container-article {
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .section-footer {
+                                                                    width: 100%;
+                                                                }
+                                                                footer {
+                                                                    padding: 0 16px 82px 16px;
+                                                                    flex-wrap: wrap;
+                                                                }
+                                                                .article-icons {
+                                                                    justify-content: flex-start;
+                                                                }
+                                                                .article-about {
+                                                                    flex-direction: column;
+                                                                    align-items: flex-start;
+                                                                }
+                                                                nav img {
+                                                                    width: 130px;
+                                                                    height: 32px;
+                                                                }
+                                                                .contact-link {
+                                                                    display: none;
+                                                                }
+                                                                @media only screen and (min-width: 415px) and (max-width: 768px) {
+                                                                    h1 {
+                                                                        font-size: 20px;
+                                                                        line-height: 28px;
+                                                                        width: 344px;
+                                                                    }
+                                                                    header {
+                                                                        padding: 40px 16px 0 16px;
+                                                                        margin-bottom: 95px;
+                                                                    }
+                                                                    .menu {
+                                                                        padding: 0 16px;
+                                                                    }
+                                                                    .container-section {
+                                                                        padding: 0 8px 0 8px;
+                                                                    }
+                                                                    .image {
+                                                                        width: 100%;
+                                                                    }
+                                                                    .article-div-container {
+                                                                        width: 100%;
+                                                                    }
+                                                                    .container-article {
+                                                                        flex-wrap: wrap;
+                                                                    }
+                                                                    .section-footer {
+                                                                        width: 100%;
+                                                                    }
+                                                                    footer {
+                                                                        padding: 0 16px 82px 16px;
+                                                                        flex-wrap: wrap;
+                                                                    }
+                                                                    .article-icons {
+                                                                        justify-content: flex-start;
+                                                                    }
+                                                                    .article-about {
+                                                                        flex-direction: column;
+                                                                        align-items: flex-start;
+                                                                    }
+                                                                    nav img {
+                                                                        width: 130px;
+                                                                        height: 32px;
+                                                                    }
+                                                                    .contact-link {
+                                                                        display: none;
+                                                                    }
+                                                                }
